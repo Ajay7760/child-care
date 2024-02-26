@@ -1,0 +1,61 @@
+@media screen and (max-width:992px) {
+    
+    div.program{
+        width: 60%;
+        height: 30%;
+    }
+    .client-card{
+        width: 150px;
+        height: 150px;
+        justify-content: space-evenly;
+        margin: 20px;
+      
+    }
+    #home {
+        background-image: url(background1.png);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    }
+    #home img{
+        padding-left: 40px;
+        margin-top: 20px;
+    }
+
+    }
+    .blog-card{
+        width: 60%;
+        height: 100%;
+       
+    }
+    #clients{
+        font-size: calc(100% -50%
+        );
+    }
+    .pannel-ops{
+        
+        font-size: 10px;
+    }
+    .foot-a ul li{
+        font-size: 15px
+       ;
+        letter-spacing: normal;
+    }
+
+@media screen and (max-width:1161px){
+    .pannel-ops{
+        font-size: 1px;
+        word-wrap: break-word;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:1450px){
+  
+    #Glimpse{
+       width: 50%;
+       height: 50%;
+    }
+}
